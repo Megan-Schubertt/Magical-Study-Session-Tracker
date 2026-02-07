@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    margin:0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial
+}
+
+body {
+    background:#f3f4f6;
+    padding:18px 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 260px 1fr 260px;
+    gap: 20px; 
+    align-items: start;
+}
