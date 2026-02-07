@@ -19,3 +19,13 @@ header h1 {
     margin: 0;
     font-size: 1.25rem;
 }
+
+.layout {
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 20px;
+    display:grid;
+    grid-template-columns: 260px 1fr 260px;
+    gap: 20px; 
+    align-items: start;
+}
