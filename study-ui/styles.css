@@ -36,3 +36,13 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(16,24,40,0.03);
 }
+
+.due-dates h2,.tasks h2,.timer-section h2,.calendar-section h2{
+    margin-top:0;
+    font-size:1.05rem;
+}
+
+.due-dates ul,.tasks ul{
+    padding-left:1rem;
+    margin:8px 0;
+}
