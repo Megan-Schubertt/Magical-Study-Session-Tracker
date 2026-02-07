@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const startingMinutes = 25;
 let time = startingMinutes * 60;
 let interval = null;
@@ -25,6 +24,3 @@ startBtn.addEventListener('click', () => {
         interval = setInterval(updateCountdown, 1000);
     }
 });
-=======
-
->>>>>>> 3117e573d1b650b69359618db5db2dbf51456dc1
